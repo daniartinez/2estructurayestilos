@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 1rem;
+    background-color: #e3d1c5;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+section, nav, header, footer {
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+section {
+    background-color: #a5816b;    
+    width: 70%;
+}
+
+.header{
+    background-color: #242223;
+    padding: 1.2rem;
+    display: flex;
+    grid-area: header;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul a {
+    color: #e3d1c5;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background-color: #242223;
+}
+
+footer p {
+    color: #e3d1c5;
+    font-family: 'Instrument Serif', serif;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+header nav ul{
+    list-style: none;
+    background-color: #3d3d3d;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu{
+    display: inline-block;
+    color: #e3d1c5;
+    font-family: 'Instrument Serif', serif;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.tituloppal{
+    color: #e3d1c5;
+    font-family: 'Instrument Serif', serif;
+    font-size: xx-large;
+}
+
+h2{
+    font-family: 'Instrument Serif', serif;
+    font-size: x-large;
+}
+
+h4{
+    font-family: 'Instrument Serif', serif;
+    font-size: large;
+}
+
+.brownieimg{
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cinnamonimg{
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
